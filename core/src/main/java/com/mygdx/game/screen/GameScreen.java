@@ -146,31 +146,31 @@ public class GameScreen implements Screen {
                         }
                         else if (i==2 && j==1){
                             if (glogic.getSpritesElement(i,j).equals("X")){
-                                x.setBounds(299-45,182-45,90,90);
+                                x.setBounds(299-25,182-45,90,90);
                                 stage.addActor(x);
                             }
                             else{
-                                o.setBounds(299-45,182-45,90,90);
+                                o.setBounds(299-25,182-45,90,90);
                                 stage.addActor(o);
                             }
                         }
                         else if (i==0 && j==2){
                             if (glogic.getSpritesElement(i,j).equals("X")){
-                                x.setBounds(461-45,442-45,90,90);
+                                x.setBounds(461-45,442-35,90,90);
                                 stage.addActor(x);
                             }
                             else{
-                                o.setBounds(452-45,442-45,90,90);
+                                o.setBounds(452-40,442-35,90,90);
                                 stage.addActor(o);
                             }
                         }
                         else if (i==1 && j==2){
                             if (glogic.getSpritesElement(i,j).equals("X")){
-                                x.setBounds(461-45,322-45,90,90);
+                                x.setBounds(461-45,322-50,90,90);
                                 stage.addActor(x);
                             }
                             else{
-                                o.setBounds(461-45,322-45,90,90);
+                                o.setBounds(461-45,322-50,90,90);
                                 stage.addActor(o);
                             }
                         }
