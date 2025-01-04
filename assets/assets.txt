@@ -1,4 +1,3 @@
-.gitkeep
 META-INF/MANIFEST.MF
 buttons/back.png
 buttons/confirm.png
